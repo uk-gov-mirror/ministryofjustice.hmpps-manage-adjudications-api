@@ -78,7 +78,7 @@
                         <div class="col-md-12">
                             <div class="callout callout-info">
                                 <h4>SchemaSpy Analysis of adjudications.public</h4>
-                                <p>Generated on Thu Sep 03 08:19 UTC 2026</p>
+                                <p>Generated on Thu Sep 03 20:46 UTC 2026</p>
                             </div>
                         </div>
                     </div>
@@ -341,15 +341,6 @@
                                         <td class="comment detail" style="display: table-cell;"><p>Witnesses recorded on a draft adjudication. Copied to reported_witness on submission.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/dis_issue_history.html">dis_issue_history</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">-1</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Full history of issuing the notice of being placed on report (DIS1/2) to the prisoner. The most recent issue is also denormalised onto reported_adjudications.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/evidence.html">evidence</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
@@ -357,6 +348,15 @@
                                         <td class="detail" align="right">-1</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Evidence recorded on a draft adjudication. Copied to reported_evidence on submission.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/dis_issue_history.html">dis_issue_history</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">8</td>
+                                        <td class="detail" align="right">-1</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Full history of issuing the notice of being placed on report (DIS1/2) to the prisoner. The most recent issue is also denormalised onto reported_adjudications.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/protected_characteristics.html">protected_characteristics</a></td>
@@ -404,15 +404,6 @@
                                         <td class="comment detail" style="display: table-cell;"><p>A punishment (NOMIS calls these awards or sanctions) given on a charge where the outcome was CHARGE_PROVED. The duration or amount is not held here but on the linked punishment_schedule rows. ADDITIONAL_DAYS and PROSPECTIVE_DAYS punishments are the added days that feed sentence calculation via the adjustments service.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/reported_damages.html">reported_damages</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">10</td>
-                                        <td class="detail" align="right">-1</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Damage to prison property recorded on a submitted adjudication.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/reported_adjudications.html">reported_adjudications</a></td>
                                         <td class="detail" align="right">9</td>
                                         <td class="detail" align="right">0</td>
@@ -420,6 +411,15 @@
                                         <td class="detail" align="right">-1</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>A submitted adjudication charge - the root record for everything that follows (hearings, outcomes and punishments). One row per charge, not per incident: an incident involving several prisoners, or several offences, produces several rows. Includes records migrated from NOMIS as well as those raised in DPS.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/reported_damages.html">reported_damages</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">10</td>
+                                        <td class="detail" align="right">-1</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Damage to prison property recorded on a submitted adjudication.</p></td>
                                     </tr>
                             </table>
                         </div>
